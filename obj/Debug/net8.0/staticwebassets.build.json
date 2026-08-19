@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8q6iuRAnvO3xBFvgpVP41WH6EQtGbLlVSgG50Hbqh7Q=",
+  "Source": "wms-api",
+  "BasePath": "_content/wms-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
