@@ -30,4 +30,15 @@ Namespace Dtos
     Public Class AdjustStockDto
         Public Property Delta As Decimal
     End Class
+
+    Public Class MaterialWithCompanyDto
+        Public Property Id As Guid
+        Public Property Name As String
+        Public Property Unit As String
+        Public Property Quantity As Decimal
+        Public Property MinQuantity As Decimal?
+        Public Property Note As String
+        Public Property CompanyCode As String
+        Public Property CompanyName As String
+    End Class
 End Namespace

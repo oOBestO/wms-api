@@ -24,7 +24,9 @@ Namespace Services
                 New Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
                 New Claim(JwtRegisteredClaimNames.Email, user.Email),
                 New Claim("name", user.Name),
-                New Claim("companyCode", user.CompanyCode)
+                New Claim("companyCode", user.CompanyCode),
+                New Claim("positionCode", user.PositionCode),
+                New Claim("userId", user.Id.ToString())
             }
 
             Dim signingKey = New SymmetricSecurityKey(Encoding.UTF8.GetBytes(_key))

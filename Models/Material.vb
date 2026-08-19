@@ -13,6 +13,10 @@ Namespace Models
         <MaxLength(50)>
         Public Property Unit As String
 
+        <Required>
+        <MaxLength(50)>
+        Public Property CompanyCode As String
+
         Public Property Quantity As Decimal
 
         Public Property MinQuantity As Decimal?

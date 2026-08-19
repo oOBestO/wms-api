@@ -20,6 +20,10 @@ Namespace Models
         <MaxLength(50)>
         Public Property CompanyCode As String
 
+        <Required>
+        <MaxLength(50)>
+        Public Property PositionCode As String
+
         Public Property CreatedAt As DateTime = DateTime.UtcNow
     End Class
 End Namespace

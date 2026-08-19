@@ -17,6 +17,7 @@ Namespace Data
             modelBuilder.Entity(Of Material)(Sub(entity)
                                                   entity.Property(Function(m) m.Quantity).HasColumnType("decimal(18,3)")
                                                   entity.Property(Function(m) m.MinQuantity).HasColumnType("decimal(18,3)")
+                                                  entity.HasIndex(Function(m) m.CompanyCode)
                                               End Sub)
 
             modelBuilder.Entity(Of StockTransaction)(Sub(entity)
@@ -24,6 +25,7 @@ Namespace Data
                                                           entity.Property(Function(t) t.QuantityBefore).HasColumnType("decimal(18,3)")
                                                           entity.Property(Function(t) t.QuantityAfter).HasColumnType("decimal(18,3)")
                                                           entity.HasIndex(Function(t) t.MaterialId)
+                                                          entity.HasIndex(Function(t) t.CompanyCode)
                                                       End Sub)
 
             modelBuilder.Entity(Of User)(Sub(entity)

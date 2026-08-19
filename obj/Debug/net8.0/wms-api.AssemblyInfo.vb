@@ -15,7 +15,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("wms-api"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dceb76991bc7727f3a7b1df1a32ef5b6d67df6ab"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59037af1886982b7c3af6e7a41ba8e7f90a34c33"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("wms-api"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("wms-api"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 
