@@ -1,9 +1,11 @@
+Imports Microsoft.AspNetCore.Authorization
 Imports Microsoft.AspNetCore.Mvc
 Imports Microsoft.EntityFrameworkCore
 Imports wms_api.Data
 Imports wms_api.Models
 
 Namespace Controllers
+    <Authorize>
     <ApiController>
     <Route("api/stock-transactions")>
     Public Class StockTransactionsController

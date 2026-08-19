@@ -147,3 +147,5 @@ C:\Users\ASUS\AppData\Local\Temp\claude\c--Users-ASUS-wms\36e2b891-5dd1-4968-acc
 C:\Users\ASUS\AppData\Local\Temp\claude\c--Users-ASUS-wms\36e2b891-5dd1-4968-accc-1f3e7e909012\scratchpad\wms-api-build\wms-api.runtimeconfig.json
 C:\Users\ASUS\AppData\Local\Temp\claude\c--Users-ASUS-wms\36e2b891-5dd1-4968-accc-1f3e7e909012\scratchpad\wms-api-build\wms-api.dll
 C:\Users\ASUS\AppData\Local\Temp\claude\c--Users-ASUS-wms\36e2b891-5dd1-4968-accc-1f3e7e909012\scratchpad\wms-api-build\wms-api.pdb
+C:\Users\ASUS\wms-api\obj\Debug\net8.0\wms-api.sourcelink.json
+C:\Users\ASUS\wms-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

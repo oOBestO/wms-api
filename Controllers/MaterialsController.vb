@@ -1,3 +1,4 @@
+Imports Microsoft.AspNetCore.Authorization
 Imports Microsoft.AspNetCore.Mvc
 Imports Microsoft.EntityFrameworkCore
 Imports wms_api.Data
@@ -5,6 +6,7 @@ Imports wms_api.Dtos
 Imports wms_api.Models
 
 Namespace Controllers
+    <Authorize>
     <ApiController>
     <Route("api/materials")>
     Public Class MaterialsController
